@@ -1,0 +1,38 @@
+{
+  "name": "ampapi-ts",
+  "description": "TypeScript version of the original JavaScript-based package for Cubecoders AMP.",
+  "main": "ampapi.ts",
+  "version": "1.0.0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnxietyisReal/AMPAPI-TS.git"
+  },
+  "keywords": [
+    "cubecoders", "AMP", "API"
+  ],
+  "readme": "https://github.com/AnxietyisReal/AMPAPI-TS/README.md",
+  "author": "Toast",
+  "license": "Unlicence",
+  "os": [
+    "!darwin",
+    "win32",
+    "linux"
+  ],
+  "cpu": [
+    "x64",
+    "!arm",
+    "!mips",
+    "!ia32"
+  ],
+  "engines": {
+    "node": ">=18.12.0"
+  },
+  "dependencies": {
+    "typescript": "5.0.4",
+    "axios": "1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.1.1"
+  }
+}

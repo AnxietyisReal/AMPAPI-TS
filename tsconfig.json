@@ -1,0 +1,22 @@
+{
+  "typeAcquisition": {
+    "enable": true,
+    "include": ["ampapi.ts"]
+  },
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2022",
+    "module": "ESNext",
+    "baseUrl": "./",
+    "outDir": "dist/",
+    "moduleResolution": "bundler",
+    "typeRoots": [ "node_modules/@types" ],
+  },
+  "include": [ "node_modules/@types", "./ampapi.ts" ],
+  "exclude": [ "node_modules", ".git" ],
+}
